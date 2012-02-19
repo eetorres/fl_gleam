@@ -153,7 +153,7 @@ Index: src/fl_gleam.cxx
 +}
 Index: src/Makefile
 ===================================================================
---- src/Makefile	(revision 9209)
+--- src/Makefile	(revision 9233)
 +++ src/Makefile	(working copy)
 @@ -134,6 +134,7 @@
  	fl_engraved_label.cxx \
@@ -165,7 +165,7 @@ Index: src/Makefile
  	fl_line_style.cxx \
 Index: FL/Enumerations.H
 ===================================================================
---- FL/Enumerations.H	(revision 9209)
+--- FL/Enumerations.H	(revision 9233)
 +++ FL/Enumerations.H	(working copy)
 @@ -506,6 +506,14 @@
    _FL_GTK_THIN_DOWN_FRAME,	///< gtk+ version of FL_THIN_DOWN_FRAME
@@ -201,7 +201,7 @@ Index: FL/Enumerations.H
    Get the filled version of a frame.
 Index: test/Makefile
 ===================================================================
---- test/Makefile	(revision 9209)
+--- test/Makefile	(revision 9233)
 +++ test/Makefile	(working copy)
 @@ -51,6 +51,7 @@
  	fullscreen.cxx \
@@ -229,7 +229,7 @@ Index: test/Makefile
  	$(RM) mandelbrot_ui.cxx mandelbrot_ui.h
 Index: test/CMakeLists.txt
 ===================================================================
---- test/CMakeLists.txt	(revision 9209)
+--- test/CMakeLists.txt	(revision 9233)
 +++ test/CMakeLists.txt	(working copy)
 @@ -80,6 +80,7 @@
  CREATE_EXAMPLE(file_chooser file_chooser.cxx "fltk;fltk_images")
@@ -417,7 +417,7 @@ Index: test/gleam.fl
 +} 
 Index: test/forms.cxx
 ===================================================================
---- test/forms.cxx	(revision 9209)
+--- test/forms.cxx	(revision 9233)
 +++ test/forms.cxx	(working copy)
 @@ -58,6 +58,7 @@
     {FL_PLASTIC_DOWN_BOX,"plastic downbox"},
@@ -429,7 +429,7 @@ Index: test/forms.cxx
  };
 Index: fluid/alignment_panel.fl
 ===================================================================
---- fluid/alignment_panel.fl	(revision 9209)
+--- fluid/alignment_panel.fl	(revision 9233)
 +++ fluid/alignment_panel.fl	(working copy)
 @@ -187,6 +187,10 @@
          label {GTK+}
@@ -444,7 +444,7 @@ Index: fluid/alignment_panel.fl
        xywh {116 43 220 126} labelfont 1 align 0
 Index: fluid/alignment_panel.cxx
 ===================================================================
---- fluid/alignment_panel.cxx	(revision 9209)
+--- fluid/alignment_panel.cxx	(revision 9233)
 +++ fluid/alignment_panel.cxx	(working copy)
 @@ -153,6 +153,7 @@
   {"None", 0,  0, 0, 0, FL_NORMAL_LABEL, 0, 14, 0},
@@ -456,7 +456,7 @@ Index: fluid/alignment_panel.cxx
  
 Index: fluid/Fl_Widget_Type.cxx
 ===================================================================
---- fluid/Fl_Widget_Type.cxx	(revision 9209)
+--- fluid/Fl_Widget_Type.cxx	(revision 9233)
 +++ fluid/Fl_Widget_Type.cxx	(working copy)
 @@ -678,6 +678,12 @@
  {"GTK_THIN_DOWN_BOX",0,0,(void *)FL_GTK_THIN_DOWN_BOX},
@@ -482,7 +482,7 @@ Index: fluid/Fl_Widget_Type.cxx
  
 Index: fluid/fluid.cxx
 ===================================================================
---- fluid/fluid.cxx	(revision 9209)
+--- fluid/fluid.cxx	(revision 9233)
 +++ fluid/fluid.cxx	(working copy)
 @@ -1113,6 +1113,9 @@
      case 3 : // GTK+
