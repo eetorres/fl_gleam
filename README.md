@@ -15,8 +15,12 @@ $ tar -xvzf fltk-1.3.2-source.tar.gz
 
 $ patch -p0 < fltk-1.3.2-gleam-4.3.patch
 
-5) then compile it with make and run the example:
+5) then compile it
 
-$ ./test/gleam
+$ make 
 
-6) enjoy....
+6) and run the test
+
+$ ./test/unittests -s gleam
+
+7) enjoy....
