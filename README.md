@@ -1,7 +1,7 @@
 fl_gleam
 ========
 
-Gleam 4.3 patch for the fltk-1.3.2. Add a glossy layout theme to FLTK 1.3.x and 1.3.2. Here the steps of how to use it:
+Gleam 4.3 patch for the FLTK cross-plataform GUI library (www.fltk.org). Add a glossy layout theme to FLTK 1.3.x and 1.3.2. Here the steps of how to use it:
 
 1) get fltk-1.3.2-source.tar.gz
 
