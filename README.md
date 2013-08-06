@@ -3,10 +3,10 @@ fl_gleam
 
 Gleam 4.3 patch for the FLTK cross-plataform GUI library (www.fltk.org). Add a glossy layout theme to FLTK 1.3.x and 1.3.2. 
 
+<img src="https://github.com/eetorres/fl_gleam/blob/master/classic.png?raw=true"></img>
 ![Classic screenshot](https://github.com/eetorres/fl\_gleam/blob/master/classic.png)
 
-<img src="https://github.com/eetorres/fl_gleam/blob/master/classic.png" alt="Classic screenshot" height="439" width="722"> 
-
+<img src="https://github.com/eetorres/fl_gleam/blob/master/gleam.png?raw=true"></img>
 ![Gleam screenshot](https://github.com/eetorres/fl\_gleam/blob/master/gleam.png "Gleam screenshot")
 
 Here the steps of how to use it:
