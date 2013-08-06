@@ -5,6 +5,8 @@ Gleam 4.3 patch for the FLTK cross-plataform GUI library (www.fltk.org). Add a g
 
 ![Classic screenshot](https://github.com/eetorres/fl\_gleam/blob/master/classic.png)
 
+<img src="https://github.com/eetorres/fl_gleam/blob/master/classic.png" alt="Classic screenshot" height="439" width="722"> 
+
 ![Gleam screenshot](https://github.com/eetorres/fl\_gleam/blob/master/gleam.png "Gleam screenshot")
 
 Here the steps of how to use it:
