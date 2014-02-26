@@ -13,9 +13,9 @@ Get your copy
 
 svn co http://seriss.com/public/fltk/fltk/branches/branch-1.3/ fltk-1.3
 
-And use Gleam outofthebox!
+and use Gleam outofthebox!
 
-Tis patch will be available here only for reference purposes.
+This patch will be available here only for reference purposes.
 
 ===============================================================
 
