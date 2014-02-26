@@ -15,7 +15,9 @@ svn co http://seriss.com/public/fltk/fltk/branches/branch-1.3/ fltk-1.3
 
 And use Gleam outofthebox!
 
-It will stay available here only for refrence purposes:
+It will be available here only for reference purposes.
+
+===============================================================
 
 Gleam 4.3 patch for the FLTK cross-plataform GUI library (www.fltk.org). Add a glossy layout theme to FLTK 1.3.x and 1.3.2. Here the steps of how to use it:
 
